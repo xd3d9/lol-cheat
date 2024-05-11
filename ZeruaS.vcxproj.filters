@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sachiro header failebi">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="sachiro header failebi\tamashtan kavshirshi">
+      <UniqueIdentifier>{874bdc36-ba29-4e74-ae36-c6eeb82f2d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sachiro header failebi\proeqtan kavshirshi">
+      <UniqueIdentifier>{0ca9e8f7-9fb2-4367-b58d-5dd91f77e912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mtavari">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="mtavari\features">
+      <UniqueIdentifier>{a65a8c6a-1064-43bd-bb6a-79890b8d76fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sachiro header failebi\tamashtan kavshirshi\features headers">
+      <UniqueIdentifier>{faa3c567-fed6-472b-8d8c-cfa17b451bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sachiro header failebi\proeqtan kavshirshi\kiero">
+      <UniqueIdentifier>{0fb83c10-6564-4d05-9ccd-08831ec41593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sachiro header failebi\proeqtan kavshirshi\kiero\minhook">
+      <UniqueIdentifier>{e6bf3eb7-9ade-48f0-9f68-8eb669c9f1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src">
+      <UniqueIdentifier>{f4bf4260-e325-4a87-a923-afd2265fb7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sachiro header failebi\proeqtan kavshirshi\kiero\minhook\include">
+      <UniqueIdentifier>{bb8cad0a-c748-4690-9b90-be2c5d5c36d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>mtavari</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\kiero.cpp">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\hook.c">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\trampoline.c">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\hde\hde32.c">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\hde\hde64.c">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\buffer.c">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="object.hpp">
+      <Filter>sachiro header failebi\tamashtan kavshirshi</Filter>
+    </ClCompile>
+    <ClCompile Include="spacegliding.cpp">
+      <Filter>mtavari\features</Filter>
+    </ClCompile>
+    <ClCompile Include="drawings.cpp">
+      <Filter>mtavari\features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kiero\kiero.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\trampoline.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\hde32.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\hde64.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\pstdint.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\table32.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\table64.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\buffer.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\include\MinHook.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi\kiero\minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>mtavari</Filter>
+    </ClInclude>
+    <ClInclude Include="funcs.hpp">
+      <Filter>sachiro header failebi\tamashtan kavshirshi</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>sachiro header failebi\proeqtan kavshirshi</Filter>
+    </ClInclude>
+    <ClInclude Include="spacegliding.h">
+      <Filter>sachiro header failebi\tamashtan kavshirshi\features headers</Filter>
+    </ClInclude>
+    <ClInclude Include="drawings.hpp">
+      <Filter>sachiro header failebi\tamashtan kavshirshi\features headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>sachiro header failebi\tamashtan kavshirshi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
